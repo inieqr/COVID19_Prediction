@@ -65,7 +65,7 @@ def main():
       
     st.success(covid_diagnosis)
     
-    st.button("Reset"):
+    st.checkbox("reset button")
        
     
     
