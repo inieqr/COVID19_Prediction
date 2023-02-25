@@ -19,9 +19,9 @@ def main():
 
     st.write("""
     ## About
-   This system is a machine learning model designed to detect COVID-19 infection based on the symptoms presented by a patient.
+    **This system is a machine learning model designed to detect COVID-19 infection based on the symptoms presented by a patient.**
    
-    **Note: This is a numerical-based prediction system. Kindly type your responses in numbers i.e. 1 represents Yes and 0 represents No (1 = Yes, 0 = No).** 
+    Note: This is a numerical-based prediction system. Kindly type your responses in numbers i.e. 1 represents Yes and 0 represents No (1 = Yes, 0 = No).
     """)
     
     # getting the input data from the user
