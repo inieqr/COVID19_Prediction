@@ -7,6 +7,10 @@ import streamlit as st
 # loading the saved model
 loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
+def reset():
+    if st.button("Reset"):
+        st.experimental_rerun()
+
     
 def main():
     
@@ -62,11 +66,8 @@ def main():
         else:
           covid_diagnosis = 'Your COVID-19 status is positive! Visit the nearest hospital for a proper COVID check-up!'
 
-    # Add a reset button
-    
-    if st.button("Reset"):
-        # Rerun the entire app
-        st.experimental_rerun()
+   # Call the reset function anywhere in your app
+    reset()
       
     st.success(covid_diagnosis)
     
