@@ -14,11 +14,11 @@ def main():
     # giving a title
     st.title("A SYMPTOM-BASED COVID-19 DETECTION SYSTEM USING SVM")
 
-    st.image("covid19.jpeg")
+    st.image("covid19.jpg")
 
     st.write("""
     ## About
-   The "SYMPTOM-BASED COVID-19 DETECTION SYSTEM USING SVM" is a machine learning model designed to detect COVID-19 infection based on the symptoms presented by a patient. The model uses Support Vector Machines (SVM) algorithm, which is a supervised learning technique that can analyze and classify data by identifying patterns and making predictions. The symptom-based COVID-19 detection system can take a set of symptoms and predict whether a patient is infected with COVID-19 or not. The model was trained using a dataset of symptoms and COVID-19 infection status from real-world patients. The model's accuracy was validated using various metrics such as sensitivity, specificity, and accuracy, and was found to be highly accurate in predicting COVID-19 infection based on symptoms. The system has the potential to assist healthcare professionals in the early identification and diagnosis of COVID-19 cases, which is critical for timely treatment and preventing the spread of the virus. Additionally, it can be used for screening individuals at high risk of COVID-19 infection, such as those with travel history or exposure to infected individuals, to facilitate early diagnosis and treatment.
+   This system is a machine learning model designed to detect COVID-19 infection based on the symptoms presented by a patient.
     **Note: This is a numerical-based prediction system. Kindly type your responses in numbers i.e. 1 represents Yes and 0 represents No.** 
     """)
     
