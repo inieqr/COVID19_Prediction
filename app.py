@@ -7,9 +7,6 @@ import streamlit as st
 # loading the saved model
 loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
-def reset():
-    if st.button("Reset"):
-        st.experimental_rerun()
 
     
 def main():
@@ -78,9 +75,7 @@ def main():
 if __name__ == '__main__':
     main()
     
-       # Call the reset function anywhere in your app
-    reset()
-    
+
     
     
     
