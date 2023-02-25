@@ -66,8 +66,8 @@ def main():
       
     st.success(covid_diagnosis)
     
-        if st.button("Reset"):
-            pyautogui.hotkey("ctrl","F5")
+     if st.button("Reset"):
+         pyautogui.hotkey("ctrl","F5")
     
     
     
