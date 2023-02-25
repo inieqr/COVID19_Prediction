@@ -62,10 +62,11 @@ def main():
         else:
           covid_diagnosis = 'Your COVID-19 status is positive! Visit the nearest hospital for a proper COVID check-up!'
 
-            # Add a reset button
-        if st.button("Reset"):
-            # Rerun the entire app
-            st.experimental_rerun()
+    # Add a reset button
+    
+    if st.button("Reset"):
+        # Rerun the entire app
+        st.experimental_rerun()
       
     st.success(covid_diagnosis)
     
