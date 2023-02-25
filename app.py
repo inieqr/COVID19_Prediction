@@ -66,8 +66,7 @@ def main():
         else:
           covid_diagnosis = 'Your COVID-19 status is positive! Visit the nearest hospital for a proper COVID check-up!'
 
-   # Call the reset function anywhere in your app
-    reset()
+
       
     st.success(covid_diagnosis)
     
@@ -78,6 +77,9 @@ def main():
     
 if __name__ == '__main__':
     main()
+    
+       # Call the reset function anywhere in your app
+    reset()
     
     
     
