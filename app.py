@@ -2,6 +2,7 @@
 import numpy as np
 import pickle
 import streamlit as st
+import pyautogui
 
 
 # loading the saved model
@@ -65,7 +66,8 @@ def main():
       
     st.success(covid_diagnosis)
     
-    
+        if st.button("Reset"):
+            pyautogui.hotkey("ctrl","F5")
     
     
     
