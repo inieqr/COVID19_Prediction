@@ -10,9 +10,6 @@ loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
     
 def main():
-    
-    
-    # giving a title
     st.title("A SYMPTOM-BASED COVID-19 DETECTION SYSTEM USING SVM")
 
     st.image("covid19.jpg")
