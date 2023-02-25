@@ -25,16 +25,16 @@ def main():
     
     # getting the input data from the user
 
-      Breathing_Problem = st.text_input('Do you have problems with breathing?')
-      Fever = st.text_input('Any fever?')
-      Dry_Cough = st.text_input('How about dry cough?')
-      Sore_throat = st.text_input('Do you feel like you have a sore throat?')
-      HyperTension = st.text_input('Do you experience hypertension?')
-      Abroad_travel = st.text_input('Travelled abroad recently?')
-      Contact_with_COVID_Patient = st.text_input('Have you been in contact with a COVID patient?')
-      Attended_Large_Gathering = st.text_input('Did you recently attend a large gathering?')
-      Visited_Public_Exposed_Places = st.text_input('Have you recently visited any public exposed places?')
-      Family_working_in_Public_Exposed_Places = st.text_input('Do you have a relative working in public exposed places?')
+    Breathing_Problem = st.text_input('Do you have problems with breathing?')
+    Fever = st.text_input('Any fever?')
+    Dry_Cough = st.text_input('How about dry cough?')
+    Sore_throat = st.text_input('Do you feel like you have a sore throat?')
+    HyperTension = st.text_input('Do you experience hypertension?')
+    Abroad_travel = st.text_input('Travelled abroad recently?')
+    Contact_with_COVID_Patient = st.text_input('Have you been in contact with a COVID patient?')
+    Attended_Large_Gathering = st.text_input('Did you recently attend a large gathering?')
+    Visited_Public_Exposed_Places = st.text_input('Have you recently visited any public exposed places?')
+    Family_working_in_Public_Exposed_Places = st.text_input('Do you have a relative working in public exposed places?')
     
     
 
