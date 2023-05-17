@@ -11,9 +11,9 @@ loaded_model = pickle.load(open('trained_model.sav', 'rb'))
     
 def main():
     
-    st.markdown("<h1 style='text-align: center; color: #2a2b2a;'>A SYMPTOM-BASED COVID-19 DETECTION SYSTEM USING SVM</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: #2a2b2a;'>A SYMPTOM-BASED COVID-19 DETECTION SYSTEM</h1>", unsafe_allow_html=True)
 
-#     st.title("A SYMPTOM-BASED COVID-19 DETECTION SYSTEM USING SVM")
+#     st.title("A SYMPTOM-BASED COVID-19 DETECTION SYSTEM")
 
     st.image("covid19.jpg")
 
@@ -27,7 +27,7 @@ def main():
     
     # getting the input data from the user
 
-    Breathing_Problem = st.text_input('Do you have problems with breathing?')
+    Breathing_Problem = st.text_input(value = 'Do you have problems with breathing?', placeholder = 'Enter 1 for Yes, 0 for No')
     Fever = st.text_input('Any fever?')
     Dry_Cough = st.text_input('How about dry cough?')
     Sore_throat = st.text_input('Do you feel like you have a sore throat?')
