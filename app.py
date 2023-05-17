@@ -47,6 +47,7 @@ def main():
         Fever = st.text_input("Any fever?", placeholder="Enter 1 for Yes, 0 for No")
         
     with col3:
+        Dry_Cough = st.text_input("How about dry cough?", placeholder="Enter 1 for Yes, 0 for No")
 
     # code for Prediction
     covid_diagnosis = ''
