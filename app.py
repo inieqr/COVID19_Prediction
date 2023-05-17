@@ -38,7 +38,15 @@ def main():
     Visited_Public_Exposed_Places = st.text_input("Have you recently visited any public exposed places?", placeholder="Enter 1 for Yes, 0 for No")
     Family_working_in_Public_Exposed_Places = st.text_input("Do you have a relative working in public exposed places?", placeholder="Enter 1 for Yes, 0 for No")
     
+    col1, col2, col3, col4, col5, col6, col7, col8, col9, col10 = st.beta_columns(10)
     
+    with col1:
+        Breathing_Problem = st.text_input("Do you have problems with breathing?", placeholder="Enter 1 for Yes, 0 for No")
+    
+    with col2:
+        Fever = st.text_input("Any fever?", placeholder="Enter 1 for Yes, 0 for No")
+        
+    with col3:
 
     # code for Prediction
     covid_diagnosis = ''
