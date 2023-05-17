@@ -38,36 +38,36 @@ def main():
 #     Visited_Public_Exposed_Places = st.text_input("Have you recently visited any public exposed places?", placeholder="Enter 1 for Yes, 0 for No")
 #     Family_working_in_Public_Exposed_Places = st.text_input("Do you have a relative working in public exposed places?", placeholder="Enter 1 for Yes, 0 for No")
     
-    col1, col2, col3, col4, col5, col6, col7, col8, col9, col10 = st.beta_columns(10)
+    col1 = st.beta_columns(1)
     
     with col1:
         Breathing_Problem = st.text_input("Do you have problems with breathing?", placeholder="Enter 1 for Yes, 0 for No")
     
-    with col2:
+    with col1:
         Fever = st.text_input("Any fever?", placeholder="Enter 1 for Yes, 0 for No")
         
-    with col3:
+    with col1:
         Dry_Cough = st.text_input("How about dry cough?", placeholder="Enter 1 for Yes, 0 for No")
         
-    with col4:
+    with col1:
         Sore_throat = st.text_input("Do you feel like you have a sore throat?", placeholder="Enter 1 for Yes, 0 for No")
         
-    with col5:
+    with col1:
         HyperTension = st.text_input("Do you experience hypertension?", placeholder="Enter 1 for Yes, 0 for No")
        
-    with col6:
+    with col1:
         Abroad_travel = st.text_input("Travelled abroad recently?", placeholder="Enter 1 for Yes, 0 for No")
      
-    with col7:
+    with col1:
         Contact_with_COVID_Patient = st.text_input("Have you been in contact with a COVID patient?", placeholder="Enter 1 for Yes, 0 for No")
 
-    with col8:
+    with col1:
         Attended_Large_Gathering = st.text_input("Did you recently attend a large gathering?", placeholder="Enter 1 for Yes, 0 for No")
         
-    with col9:
+    with col1:
         Visited_Public_Exposed_Places = st.text_input("Have you recently visited any public exposed places?", placeholder="Enter 1 for Yes, 0 for No")
         
-    with col10:
+    with col1:
         Family_working_in_Public_Exposed_Places = st.text_input("Do you have a relative working in public exposed places?", placeholder="Enter 1 for Yes, 0 for No")
         
 
