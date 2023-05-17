@@ -80,13 +80,18 @@ def main():
         covid_prediction = loaded_model.predict([[Breathing_Problem, Fever, Dry_Cough, Sore_throat, HyperTension, Abroad_travel, Contact_with_COVID_Patient, Attended_Large_Gathering, Visited_Public_Exposed_Places, Family_working_in_Public_Exposed_Places]])
         
         if (covid_prediction[0] == 0):
-          covid_diagnosis = 'Your COVID-19 status came out negative! You are safe.'
+          covid_diagnosis = "Great news! Your COVID-19 test results have returned negative, which means you are in good health and safe from the virus."
         else:
-          covid_diagnosis = 'Your COVID-19 status is positive! Visit the nearest hospital for a proper COVID check-up!'
+          covid_diagnosis = "You have tested positive for COVID-19! Please proceed to the nearest hospital for a comprehensive COVID check-up."
 
 
       
     st.success(covid_diagnosis)
+    
+    if covid_diagnosis == "Great news! Your COVID-19 test results have returned negative, which means you are in good health and safe from the virus.":
+            st.image("To get additional help, you can click [here](https://www.finelib.com/cities/lagos/health/doctors-and-clinics/-cardiologists) to get in touch with a cardiologist.")
+
+        
     
 
        
