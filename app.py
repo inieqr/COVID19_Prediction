@@ -89,7 +89,7 @@ def main():
     st.success(covid_diagnosis)
     
     if covid_diagnosis == "Great news! Your COVID-19 test results have returned negative, which means you are in good health and safe from the virus.":
-            st.image("To get additional help, you can click [here](https://www.finelib.com/cities/lagos/health/doctors-and-clinics/-cardiologists) to get in touch with a cardiologist.")
+            st.image("vac.png")
 
         
     
