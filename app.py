@@ -90,6 +90,8 @@ def main():
     
     if covid_diagnosis == "Great news! Your COVID-19 test results have returned negative, which means you are in good health and safe from the virus.":
             st.image("vac.png")
+    elif covid_diagnosis == "You have tested positive for COVID-19! Please proceed to the nearest hospital for a comprehensive COVID check-up.":
+            st.image("vac.png")
 
         
     
