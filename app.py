@@ -27,7 +27,7 @@ def main():
     
     # getting the input data from the user
 
-    Breathing_Problem = st.text_input(value = 'Do you have problems with breathing?', placeholder = 'Enter 1 for Yes, 0 for No')
+    Breathing_Problem = st.text_input("Do you have problems with breathing?", placeholder="Enter 1 for Yes, 0 for No")
     Fever = st.text_input('Any fever?')
     Dry_Cough = st.text_input('How about dry cough?')
     Sore_throat = st.text_input('Do you feel like you have a sore throat?')
