@@ -32,7 +32,45 @@ def main():
 #     Contact_with_COVID_Patient = st.text_input("Contact With A Patient", placeholder="Enter 1 for Yes, 0 for No")
 #     Attended_Large_Gathering = st.text_input("Attended Large Gathering", placeholder="Enter 1 for Yes, 0 for No")
 #     Visited_Public_Exposed_Places = st.text_input("Visited Public Exposed Places", placeholder="Enter 1 for Yes, 0 for No")
-#     Family_working_in_Public_Exposed_Places = st.text_input("Family working in Public Exposed Places", placeholder="Enter 1 for Yes, 0 for No")
+    
+    def text_field(label, columns=None, **input_params):
+        c1, c2 = st.beta_columns(columns or [1, 4])
+
+        # Display field name with some alignment
+        c1.markdown("##")
+        c1.markdown(label)
+
+        # Sets a default key parameter to avoid duplicate key errors
+        input_params.setdefault("key", label)
+
+        # Forward text input parameters
+        return c2.text_input("", **input_params)
+
+
+    username = text_field("Username")
+    password = text_field("Password", type="password")  # Notice that you can forward text_input parameters naturally#     Family_working_in_Public_Exposed_Places = st.text_input("Family working in Public Exposed Places", placeholder="Enter 1 for Yes, 0 for No")
+
+
+
+
+    def text_field(label, columns=None, **input_params):
+    c1, c2 = st.beta_columns(columns or [1, 4])
+
+    # Display field name with some alignment
+    c1.markdown("##")
+    c1.markdown(label)
+
+    # Sets a default key parameter to avoid duplicate key errors
+    input_params.setdefault("key", label)
+
+    # Forward text input parameters
+    return c2.text_input("", **input_params)
+
+
+username = text_field("Username")
+password = text_field("Password", type="password")  # Notice that you can forward text_input parameters naturally
+    
+    
     
     col1, col2 = st.columns(2)
     
