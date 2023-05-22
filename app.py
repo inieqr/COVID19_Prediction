@@ -36,7 +36,7 @@ def main():
 
     
     def text_field(label, columns=None, **input_params):
-        c1, c2 = st.beta_columns([2])
+        c1, c2 = st.beta_columns(columns or [1, 4])
 
         # Display field name with some alignment
         c1.markdown("##")
