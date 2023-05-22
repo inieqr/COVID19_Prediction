@@ -51,26 +51,6 @@ def main():
 
     username = text_field("Username")
     password = text_field("Password", type="password")  # Notice that you can forward text_input parameters naturally
-
-
-
-    def text_field(label, columns=None, **input_params):
-        c1, c2 = st.beta_columns(columns or [1, 4])
-
-    # Display field name with some alignment
-    c1.markdown("##")
-    c1.markdown(label)
-
-    # Sets a default key parameter to avoid duplicate key errors
-    input_params.setdefault("key", label)
-
-    # Forward text input parameters
-    return c2.text_input("", **input_params)
-
-
-username = text_field("Username")
-password = text_field("Password", type="password")  # Notice that you can forward text_input parameters naturally
-    
     
     
     col1, col2 = st.columns(2)
