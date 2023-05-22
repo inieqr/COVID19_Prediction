@@ -49,8 +49,8 @@ def main():
         return c2.text_input("", **input_params)
 
 
-    username = text_field("Username")
-    password = text_field("Password", type="password")  # Notice that you can forward text_input parameters naturally
+    Breathing_Problem = text_field("Difficulty in Breathing", placeholder="Enter 1 for Yes, 0 for No")
+    password = text_field("Password")
     
     
     col1, col2 = st.columns(2)
