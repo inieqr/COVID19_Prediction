@@ -61,6 +61,10 @@ def main():
     Visited_Public_Exposed_Places = text_field("Visited Public Exposed Places", placeholder="Enter 1 for Yes, 0 for No")
     Family_working_in_Public_Exposed_Places = text_field("Family working in Public Exposed Places", placeholder="Enter 1 for Yes, 0 for No")
     
+    
+    st.write{" ")
+    st.write{" ")
+    
 #     col1, col2 = st.columns(2)
     
 #     with col1:
