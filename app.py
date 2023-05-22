@@ -50,7 +50,7 @@ def main():
 
 
     Breathing_Problem = text_field("Difficulty in Breathing", placeholder="Enter 1 for Yes, 0 for No")
-    password = text_field("Password")
+    Fever = st.text_input("Fever", placeholder="Enter 1 for Yes, 0 for No")
     
     
     col1, col2 = st.columns(2)
