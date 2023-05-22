@@ -50,10 +50,8 @@ def main():
     
 
 
-    with c1:
-        Breathing_Problem = text_field("Difficulty in Breathing", placeholder="Enter 1 for Yes, 0 for No")
-    with c2:  
-        Fever = text_field("Fever", placeholder="Enter 1 for Yes, 0 for No")
+    Breathing_Problem = text_field("Difficulty in Breathing", placeholder="Enter 1 for Yes, 0 for No")
+    Fever = text_field("Fever", placeholder="Enter 1 for Yes, 0 for No")
     Dry_Cough = text_field("Dry Cough", placeholder="Enter 1 for Yes, 0 for No")
     Sore_throat = text_field("Sore Throat", placeholder="Enter 1 for Yes, 0 for No")
     HyperTension = text_field("HyperTension", placeholder="Enter 1 for Yes, 0 for No")
@@ -63,13 +61,13 @@ def main():
     Visited_Public_Exposed_Places = text_field("Visited Public Exposed Places", placeholder="Enter 1 for Yes, 0 for No")
     Family_working_in_Public_Exposed_Places = text_field("Family working in Public Exposed Places", placeholder="Enter 1 for Yes, 0 for No")
     
-#     col1, col2 = st.columns(2)
+    col1, col2 = st.columns(2)
     
-#     with col1:
-#         Breathing_Problem = st.text_input("Difficulty in Breathing", placeholder="Enter 1 for Yes, 0 for No")
+    with col1:
+        Breathing_Problem = text_field("Difficulty in Breathing", placeholder="Enter 1 for Yes, 0 for No")
     
-#     with col1:
-#         Fever = st.text_input("Fever", placeholder="Enter 1 for Yes, 0 for No")
+    with col2:
+        Fever = text_field("Fever", placeholder="Enter 1 for Yes, 0 for No")
         
 #     with col1:
 #         Dry_Cough = st.text_input("Dry Cough", placeholder="Enter 1 for Yes, 0 for No")
