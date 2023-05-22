@@ -35,31 +35,31 @@ def main():
 #     Family_working_in_Public_Exposed_Places = st.text_input("Family working in Public Exposed Places", placeholder="Enter 1 for Yes, 0 for No")
 
     
-    def text_field(label, columns=None, **input_params):
-        c1, c2 = st.beta_columns(columns or [1, 4])
+#     def text_field(label, columns=None, **input_params):
+#         c1, c2 = st.beta_columns(columns or [1, 4])
 
-        # Display field name with some alignment
-        c1.markdown("##")
-        c1.markdown(label)
+#         # Display field name with some alignment
+#         c1.markdown("##")
+#         c1.markdown(label)
 
-        # Sets a default key parameter to avoid duplicate key errors
-        input_params.setdefault("key", label)
+#         # Sets a default key parameter to avoid duplicate key errors
+#         input_params.setdefault("key", label)
 
-        # Forward text input parameters
-        return c2.text_input("", **input_params)
+#         # Forward text input parameters
+#         return c2.text_input("", **input_params)
     
 
 
-    Breathing_Problem = text_field("Difficulty in Breathing", placeholder="Enter 1 for Yes, 0 for No")
-    Fever = text_field("Fever", placeholder="Enter 1 for Yes, 0 for No")
-    Dry_Cough = text_field("Dry Cough", placeholder="Enter 1 for Yes, 0 for No")
-    Sore_throat = text_field("Sore Throat", placeholder="Enter 1 for Yes, 0 for No")
-    HyperTension = text_field("HyperTension", placeholder="Enter 1 for Yes, 0 for No")
-    Abroad_travel = text_field("Abroad Travel", placeholder="Enter 1 for Yes, 0 for No")
-    Contact_with_COVID_Patient = text_field("Contact With A Patient", placeholder="Enter 1 for Yes, 0 for No")
-    Attended_Large_Gathering = text_field("Attended Large Gathering", placeholder="Enter 1 for Yes, 0 for No")
-    Visited_Public_Exposed_Places = text_field("Visited Public Exposed Places", placeholder="Enter 1 for Yes, 0 for No")
-    Family_working_in_Public_Exposed_Places = text_field("Family working in Public Exposed Places", placeholder="Enter 1 for Yes, 0 for No")
+#     Breathing_Problem = text_field("Difficulty in Breathing", placeholder="Enter 1 for Yes, 0 for No")
+#     Fever = text_field("Fever", placeholder="Enter 1 for Yes, 0 for No")
+#     Dry_Cough = text_field("Dry Cough", placeholder="Enter 1 for Yes, 0 for No")
+#     Sore_throat = text_field("Sore Throat", placeholder="Enter 1 for Yes, 0 for No")
+#     HyperTension = text_field("HyperTension", placeholder="Enter 1 for Yes, 0 for No")
+#     Abroad_travel = text_field("Abroad Travel", placeholder="Enter 1 for Yes, 0 for No")
+#     Contact_with_COVID_Patient = text_field("Contact With A Patient", placeholder="Enter 1 for Yes, 0 for No")
+#     Attended_Large_Gathering = text_field("Attended Large Gathering", placeholder="Enter 1 for Yes, 0 for No")
+#     Visited_Public_Exposed_Places = text_field("Visited Public Exposed Places", placeholder="Enter 1 for Yes, 0 for No")
+#     Family_working_in_Public_Exposed_Places = text_field("Family working in Public Exposed Places", placeholder="Enter 1 for Yes, 0 for No")
     
     col1, col2 = st.columns(2)
     
