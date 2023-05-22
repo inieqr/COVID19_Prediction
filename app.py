@@ -51,7 +51,7 @@ def main():
 
 
 
-    Breathing_Problem = col.text_field("Difficulty in Breathing", placeholder="Enter 1 for Yes, 0 for No")
+    Breathing_Problem = text_field("Difficulty in Breathing", placeholder="Enter 1 for Yes, 0 for No")
     Fever = text_field("Fever", placeholder="Enter 1 for Yes, 0 for No")
     Dry_Cough = text_field("Dry Cough", placeholder="Enter 1 for Yes, 0 for No")
     Sore_throat = text_field("Sore Throat", placeholder="Enter 1 for Yes, 0 for No")
