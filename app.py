@@ -23,16 +23,16 @@ def main():
     
     # getting the input data from the user
 
-#     Breathing_Problem = st.text_input("Do you have problems with breathing?", placeholder="Enter 1 for Yes, 0 for No")
-#     Fever = st.text_input("Any fever?", placeholder="Enter 1 for Yes, 0 for No")
-#     Dry_Cough = st.text_input("How about dry cough?", placeholder="Enter 1 for Yes, 0 for No")
-#     Sore_throat = st.text_input("Do you feel like you have a sore throat?", placeholder="Enter 1 for Yes, 0 for No")
-#     HyperTension = st.text_input("Do you experience hypertension?", placeholder="Enter 1 for Yes, 0 for No")
-#     Abroad_travel = st.text_input("Travelled abroad recently?", placeholder="Enter 1 for Yes, 0 for No")
-#     Contact_with_COVID_Patient = st.text_input("Have you been in contact with a COVID patient?", placeholder="Enter 1 for Yes, 0 for No")
-#     Attended_Large_Gathering = st.text_input("Did you recently attend a large gathering?", placeholder="Enter 1 for Yes, 0 for No")
-#     Visited_Public_Exposed_Places = st.text_input("Have you recently visited any public exposed places?", placeholder="Enter 1 for Yes, 0 for No")
-#     Family_working_in_Public_Exposed_Places = st.text_input("Do you have a relative working in public exposed places?", placeholder="Enter 1 for Yes, 0 for No")
+#     Breathing_Problem = st.text_input("Difficulty in Breathing", placeholder="Enter 1 for Yes, 0 for No")
+#     Fever = st.text_input("Fever", placeholder="Enter 1 for Yes, 0 for No")
+#     Dry_Cough = st.text_input("Dry Cough", placeholder="Enter 1 for Yes, 0 for No")
+#     Sore_throat = st.text_input("Sore Throat", placeholder="Enter 1 for Yes, 0 for No")
+#     HyperTension = st.text_input("HyperTension", placeholder="Enter 1 for Yes, 0 for No")
+#     Abroad_travel = st.text_input("Abroad Travel", placeholder="Enter 1 for Yes, 0 for No")
+#     Contact_with_COVID_Patient = st.text_input("Contact With A Patient", placeholder="Enter 1 for Yes, 0 for No")
+#     Attended_Large_Gathering = st.text_input("Attended Large Gathering", placeholder="Enter 1 for Yes, 0 for No")
+#     Visited_Public_Exposed_Places = st.text_input("Visited Public Exposed Places", placeholder="Enter 1 for Yes, 0 for No")
+#     Family_working_in_Public_Exposed_Places = st.text_input("Family working in Public Exposed Places", placeholder="Enter 1 for Yes, 0 for No")
     
     col1, col2 = st.columns(2)
     
