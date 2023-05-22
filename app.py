@@ -112,9 +112,9 @@ def main():
 #           covid_diagnosis = "You have tested positive for COVID-19! Please proceed to the nearest hospital for a comprehensive COVID check-up."
         
         if (covid_prediction[0] == 0):
-          covid_diagnosis =  st.image("vac.png")
+          covid_diagnosis =  st.image("vac_neg.png")
         else:
-          covid_diagnosis =  st.image("vac.png")
+          covid_diagnosis =  st.image("vac_pos.png")
 
 
 
