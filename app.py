@@ -47,9 +47,12 @@ def main():
 
         # Forward text input parameters
         return c2.text_input("", **input_params)
+    
+#         buff, col, buff2 = st.beta_columns([1,3,1])
 
 
-    Breathing_Problem = text_field("Difficulty in Breathing", placeholder="Enter 1 for Yes, 0 for No")
+
+    Breathing_Problem = c1.text_field("Difficulty in Breathing", placeholder="Enter 1 for Yes, 0 for No")
     Fever = text_field("Fever", placeholder="Enter 1 for Yes, 0 for No")
     Dry_Cough = text_field("Dry Cough", placeholder="Enter 1 for Yes, 0 for No")
     Sore_throat = text_field("Sore Throat", placeholder="Enter 1 for Yes, 0 for No")
