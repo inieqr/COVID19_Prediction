@@ -18,10 +18,6 @@ def main():
     st.image("covid19.jpg")
 
     st.write("""
-    **This system is a machine learning model designed to detect COVID-19 infection based on the symptoms presented by a patient.**
-   
-    Note: This is a numerical-based prediction system. Kindly type your responses in numbers i.e. 1 = Yes, 0 = No.
-    
     **Answer the following questions:**
     """)
     
