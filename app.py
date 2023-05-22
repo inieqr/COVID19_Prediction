@@ -106,19 +106,25 @@ def main():
     if st.button('Find out your status'):
         covid_prediction = loaded_model.predict([[Breathing_Problem, Fever, Dry_Cough, Sore_throat, HyperTension, Abroad_travel, Contact_with_COVID_Patient, Attended_Large_Gathering, Visited_Public_Exposed_Places, Family_working_in_Public_Exposed_Places]])
         
+#         if (covid_prediction[0] == 0):
+#           covid_diagnosis = "Great news! Your COVID-19 test results have returned negative, which means you are in good health and safe from the virus."
+#         else:
+#           covid_diagnosis = "You have tested positive for COVID-19! Please proceed to the nearest hospital for a comprehensive COVID check-up."
+        
         if (covid_prediction[0] == 0):
-          covid_diagnosis = "Great news! Your COVID-19 test results have returned negative, which means you are in good health and safe from the virus."
+          covid_diagnosis =  st.image("vac.png")
         else:
-          covid_diagnosis = "You have tested positive for COVID-19! Please proceed to the nearest hospital for a comprehensive COVID check-up."
+          covid_diagnosis =  st.image("vac.png")
+
 
 
       
     st.success(covid_diagnosis)
     
-    if covid_diagnosis == "Great news! Your COVID-19 test results have returned negative, which means you are in good health and safe from the virus.":
-            st.image("vac.png")
-    elif covid_diagnosis == "You have tested positive for COVID-19! Please proceed to the nearest hospital for a comprehensive COVID check-up.":
-            st.image("vac.png")
+#     if covid_diagnosis == "Great news! Your COVID-19 test results have returned negative, which means you are in good health and safe from the virus.":
+#             st.image("vac.png")
+#     elif covid_diagnosis == "You have tested positive for COVID-19! Please proceed to the nearest hospital for a comprehensive COVID check-up.":
+#             st.image("vac.png")
 
         
     
