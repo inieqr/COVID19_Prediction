@@ -36,7 +36,7 @@ def main():
 
     
     def text_field(label, columns=None, **input_params):
-        c1, c2 = st.beta_columns([1, 4])
+        c1, col, c2 = st.beta_columns([1,3,1])
 
         # Display field name with some alignment
         c1.markdown("##")
@@ -48,11 +48,10 @@ def main():
         # Forward text input parameters
         return c2.text_input("", **input_params)
     
-#         buff, col, buff2 = st.beta_columns([1,3,1])
 
 
 
-    Breathing_Problem = text_field("Difficulty in Breathing", placeholder="Enter 1 for Yes, 0 for No")
+    Breathing_Problem = col.text_field("Difficulty in Breathing", placeholder="Enter 1 for Yes, 0 for No")
     Fever = text_field("Fever", placeholder="Enter 1 for Yes, 0 for No")
     Dry_Cough = text_field("Dry Cough", placeholder="Enter 1 for Yes, 0 for No")
     Sore_throat = text_field("Sore Throat", placeholder="Enter 1 for Yes, 0 for No")
